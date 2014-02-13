@@ -45,7 +45,7 @@ $maximum = hasOption('m');
 $sleep = !hasOption('n', true);
 var_dump ($sleep);
 for($i  = 1; $i <= $maximum; $i++) {
-	$rating[$i] = rand(1, 10);
+	$rating[$i] = rand(1, $maximum);
 	@$totalrating +=  $rating[$i];
 	//echo $i.'  '.$rating[$i].'  '.$totalrating."\n";
 }
