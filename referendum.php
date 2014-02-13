@@ -39,7 +39,7 @@ options:
 ';
 	exit();
 }
-echo "!!!   vote simulator v 0.3 ready to work   !!! \n";
+echo "!!!   vote simulator v 0.3 is ready to work   !!! \n";
 $quantity = hasOption('q');
 $maximum = hasOption('m');
 $sleep = !hasOption('n', true);
